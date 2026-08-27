@@ -1,0 +1,169 @@
+body {
+    background-image: url(zvezdy_galaktika_kosmos_298416_2560x1440.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1 {
+    color: #ffffff;
+    font-size:50px;
+    text-align: center;
+    margin: 50px 0px;
+    text-shadow: 4px 2px rgb(192, 139, 139);
+}
+.flex-container {
+    display:flex;
+   justify-content:space-evenly; 
+   align-items:center;
+}
+h3 {
+    color:#ffffff;
+    margin-left: 30px;
+}
+.flex-container_earth {
+    display:flex;
+    justify-content:space-around;
+    
+}
+.flex-container_earth img{
+    width: 450px; 
+    transition: transform 1s;
+}
+.flex-container_earth img:hover {
+    /* width: 640px; */
+    transform: scale(1.5);
+}
+.description-venus {
+    color: #ffffff;
+    text-align: center;
+    font-size:30px ;
+    background-color: rgba(95, 158, 160, 0.525);
+    padding: 30px 60px 30px 60px;
+}
+.description_mars {
+    color: #ffffff;
+    font-size:20px ;
+    margin: 30px;
+}
+.flex-container_mars img {
+   width: 450px; 
+   transition: transform 1s;
+}
+.flex-container_mars img:hover {
+    transform: scale(1.5);
+}
+.flex-container_mars {
+    display:flex;
+    justify-content:space-around;
+}
+.flex-container_venus {
+    display:flex;
+     justify-content: space-around; 
+     align-items: center;   
+}
+.flex-container_venus img {
+    max-width: 60%;
+}
+.flex-container_venus div {
+    flex:1;
+}
+.cartina {
+    flex:2;
+}
+.text_uran {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(255, 221, 0, 0.692);
+    margin: 30px;
+    padding: 20px 30px;
+}
+.flex-container_uranus {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.flex-container_uranus div img {
+    max-width: 600px;
+    height: 450px;
+    margin-right: 50px;
+}
+.mercr {
+    color: #ffffff;
+    font-size: 19px;
+}
+.mercury-text {
+    width: 50%;
+    background-color: #92e11469;
+    padding: 25px;
+    margin: 30px;
+    position: fixed;
+}
+.jjjj {
+    color: #ffffff;
+    font-size:19px;
+}
+.jupiter-text {
+    width:50%;
+    background-color:rgba(127, 255, 212, 0.417);
+    padding:25px;
+    margin:30px ;
+}
+.flex-container_jupiter {
+   display:flex;
+    justify-content:space-around; 
+}
+.flex-container_jupiter img {
+     width: 400px; 
+}
+.flex-container_mercury {
+    display:flex;
+    justify-content:space-around;
+    flex-direction: column;
+    margin-left: 60%;
+}
+.flex-container_mercury img{
+    max-width: 550px; 
+    margin-bottom: 50px;
+    }
+.mercuryh1 {
+    position: sticky;
+    top: 0;
+}
+.saturn-text {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 50px;
+}
+.flex-container_saturn img {
+    max-width: 550px;
+}
+.flex-container_saturn {
+    display:flex;
+    justify-content: space-around;
+    
+}
+.nnnn {
+    color: #ffffff;
+    font-size:19px;
+}
+.flex-containerneptune {
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.flex-containerneptune img {
+     max-width:450px; 
+}
+.text {
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+    opacity: 0;
+}
+.flex-containerneptune div:hover .text{
+    opacity: 1;
+
+}
